@@ -2,7 +2,7 @@ spring:
   datasource:
     username: postgres
     url: jdbc:postgresql://localhost:5432/db_ms_base
-    password: postgres
+    password: root
   jpa:
     properties:
       hibernate:
