@@ -1,13 +1,16 @@
 spring:
   datasource:
     username: postgres
-    url: jdbc:postgresql://ms-base-pg14:5432/db_ms_auth
-    password: '1234567'
+    url: jdbc:postgresql://ms-auth-pg14:5432/db_ms_auth
+    platform: postgres
+    password: 1234567
   jpa:
+    database: POSTGRESQL
     properties:
       hibernate:
-        jdbc:
-          lob:
-            non_contextual_creation: 'true'
+        format_sql: false
     hibernate:
-      ddl-auto: none
+      ddl-auto: update
+    show-sql: false
+  database:
+    driverClassName: org.postgresql.Driver
