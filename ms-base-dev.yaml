@@ -1,5 +1,8 @@
 spring:
+  database:
+    driverClassName: org.postgresql.Driver
   datasource:
+    platform: postgres
     username: postgres
     url: jdbc:postgresql://localhost:5432/db_ms_base
     password: root
