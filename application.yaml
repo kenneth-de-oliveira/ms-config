@@ -1,7 +1,0 @@
-oauth:
-  client:
-    secret: myappsecret123
-    name: myappname123
-
-jwt:
-  secret: MY-JWT-SECRET
