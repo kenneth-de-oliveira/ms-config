@@ -1,7 +1,7 @@
 spring:
   datasource:
     username: postgres
-    url: jdbc:postgresql://ms-auth-pg14:5432/db_ms_auth
+    url: jdbc:postgresql://ms-user-pg14:5432/db_ms_user
     platform: postgres
     password: 1234567
   jpa:
